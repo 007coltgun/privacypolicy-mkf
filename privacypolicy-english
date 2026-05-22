@@ -1,0 +1,119 @@
+# Privacy Policy for MultiKey Finder (MKF)
+
+**Last Updated:** December 2024
+
+## Overview
+
+MultiKey Finder (MKF) is a browser extension that helps users search for and highlight multiple keywords on web pages. We are committed to protecting your privacy and being transparent about how our extension works.
+
+## Data Collection
+
+**We do NOT collect, transmit, or share any of your data.**
+
+MultiKey Finder operates entirely locally within your browser and does not communicate with any external servers.
+
+## Data Storage
+
+### Local Storage Only
+
+The extension uses Chrome's local storage API (`chrome.storage.local`) to save:
+- Your keyword lists
+- Your search preferences
+- Extension settings
+
+**Important:** All data is stored locally on your device only. This data:
+- Never leaves your browser
+- Is not transmitted to any server
+- Is not accessible to the extension developer
+- Is not shared with any third parties
+
+## Permissions Explained
+
+The extension requires the following permissions:
+
+### `storage`
+- **Purpose:** To save your keyword lists and preferences locally in your browser
+- **Data Access:** Only data you explicitly enter into the extension
+- **Storage Location:** Local browser storage only
+
+### `activeTab`
+- **Purpose:** To search for and highlight keywords on the current web page you're viewing
+- **Data Access:** Only the content of the page you're actively viewing when you use the extension
+- **Usage:** Only activated when you click the search button
+
+### `http://*/*` and `https://*/*`
+- **Purpose:** To allow the extension to work on any website you visit
+- **Data Access:** The extension can read page content only when you activate the search function
+- **No Automatic Processing:** The extension does not automatically process or collect data from pages you visit
+
+## What We Do NOT Do
+
+- ❌ We do NOT collect personal information
+- ❌ We do NOT track your browsing history
+- ❌ We do NOT send data to external servers
+- ❌ We do NOT use analytics or tracking tools
+- ❌ We do NOT share data with third parties
+- ❌ We do NOT sell your data
+- ❌ We do NOT use cookies
+- ❌ We do NOT require user accounts or registration
+
+## How the Extension Works
+
+1. **You enter keywords** into the extension popup
+2. **Keywords are stored locally** in your browser
+3. **When you click search**, the extension searches the current page for your keywords
+4. **Results are highlighted** on the page with different colors
+5. **All processing happens locally** in your browser
+
+## Data Security
+
+Since all data is stored locally on your device:
+- Your data security depends on your device's security
+- We recommend using browser security features and keeping your browser updated
+- You can clear all extension data at any time by:
+  - Removing the extension, or
+  - Using the extension's "حذف همه" (Delete All) button
+
+## Third-Party Access
+
+This extension does not integrate with any third-party services, APIs, or analytics platforms. No data is ever transmitted outside your browser.
+
+## Children's Privacy
+
+This extension does not knowingly collect any information from anyone, including children under 13. Since no data is collected or transmitted, it is safe for users of all ages.
+
+## Changes to This Privacy Policy
+
+If we make changes to this privacy policy, we will update the "Last Updated" date at the top of this document. Continued use of the extension after changes constitutes acceptance of the updated policy.
+
+## Open Source
+
+This extension is open source. You can review the complete source code to verify our privacy claims at: [Your GitHub Repository URL]
+
+## Contact
+
+If you have questions about this privacy policy or the extension, please contact:
+
+**Developer:** Amin Javadi Azad  
+**GitHub Issues:** [Your GitHub Repository URL]/issues
+
+## Your Rights
+
+You have complete control over your data:
+- **Access:** All your data is visible in the extension interface
+- **Modify:** You can edit or delete keywords at any time
+- **Delete:** You can remove all data by uninstalling the extension or using the delete functions
+- **Export:** You can manually copy your keyword lists from the extension interface
+
+## Compliance
+
+This extension complies with:
+- Chrome Web Store Developer Program Policies
+- General Data Protection Regulation (GDPR) principles
+- California Consumer Privacy Act (CCPA) principles
+
+Since we do not collect any data, most data protection regulations do not apply to our extension's operation.
+
+---
+
+**Summary:** MultiKey Finder (MKF) is a privacy-focused tool that operates entirely within your browser. We do not collect, store, transmit, or share any of your data. All functionality is local to your device.
